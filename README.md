@@ -15,11 +15,14 @@ agent-evals/
 │   ├── generate_report.js    # Generates the Word comparison doc
 │   └── package.json
 ├── docs/
+│   ├── SOP.md                                              # ← Full eval SOP (start here)
 │   ├── Evaluation Data Sources - Reconciliation Guide.md   # BigQuery, Cloud SQL, PostHog how-to
 │   ├── Eval Automation Strategy.md                         # Roadmap for full automation
 │   └── slack_eval_template.md                              # Slack message template
 └── results/                  # Drop eval CSVs here (gitignored by default)
 ```
+
+📋 **New to running evals? Start with the [Evaluation SOP](docs/SOP.md)** — scoring methodology, rubric categories, merge thresholds, known persistent issues, and bug ticket format all in one place.
 
 ---
 
